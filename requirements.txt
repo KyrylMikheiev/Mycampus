@@ -1,0 +1,7 @@
+requests>=2.31          # HTTP: login + grades fetch + Telegram calls
+beautifulsoup4>=4.12     # parse the grades HTML into text for diffing
+python-dotenv>=1.0       # load secrets from the .env file
+
+# Only needed for the browser-based fallback (grade_watcher.py, Playwright edition).
+# Harmless to install now; after `pip install` also run:  playwright install chromium
+playwright>=1.44

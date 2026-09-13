@@ -1,0 +1,13 @@
+# secrets — never commit these
+.env
+.env.*
+!.env.example
+
+last_state.json
+*.png
+*.html
+
+# python
+__pycache__/
+*.pyc
+.venv/
